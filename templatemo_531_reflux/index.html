@@ -12,9 +12,8 @@
       href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
       rel="stylesheet"
     />
-
     <title>Virang's Portfolio</title>
-<!--
+    <!--
 Reflux Template
 https://templatemo.com/tm-531-reflux
 -->
@@ -26,6 +25,7 @@ https://templatemo.com/tm-531-reflux
     <link rel="stylesheet" href="assets/css/templatemo-style.css" />
     <link rel="stylesheet" href="assets/css/owl.css" />
     <link rel="stylesheet" href="assets/css/lightbox.css" />
+    <link rel="stylesheet" href="assets/css/extracss.css" />
   </head>
 
   <body>
@@ -37,11 +37,13 @@ https://templatemo.com/tm-531-reflux
           <i class="fa fa-times" id="menu-close"></i>
           <div class="container">
             <div class="image">
-              <a href="#"><img src="assets/images/virang-profile.jpg" alt="" /></a>
+              <a href="#"
+                ><img src="assets/images/virang-profile.jpg" alt=""
+              /></a>
             </div>
             <div class="author-content">
               <h4>Virang Parekh</h4>
-              <span>Computer Engineering Year</span>
+              <span>Computer Engineer (Junior Year)</span>
             </div>
             <nav class="main-nav" role="navigation">
               <ul class="main-menu">
@@ -59,21 +61,29 @@ https://templatemo.com/tm-531-reflux
                   ></a>
                 </li>
                 <li>
-                  <a href="https://twitter.com/VirangViru"><i class="fa fa-twitter"></i></a>
+                  <a href="https://twitter.com/VirangViru"
+                    ><i class="fa fa-twitter"></i
+                  ></a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/in/virang-parekh/"><i class="fa fa-linkedin"></i></a>
+                  <a href="https://www.linkedin.com/in/virang-parekh/"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
                 </li>
                 <li>
-                  <a href="https://github.com/VirangParekh"><i class="fa fa-github"></i></a>
+                  <a href="https://github.com/VirangParekh"
+                    ><i class="fa fa-github"></i
+                  ></a>
                 </li>
                 <li>
-                  <a href="https://virangsexperimentswithlife.home.blog/"><i class="fa fa-wordpress"></i></a>
+                  <a href="https://virangsexperimentswithlife.home.blog/"
+                    ><i class="fa fa-wordpress"></i
+                  ></a>
                 </li>
               </ul>
             </div>
             <div class="copyright-text">
-              <p><br></p>
+              <p><br /></p>
             </div>
           </div>
         </div>
@@ -82,11 +92,12 @@ https://templatemo.com/tm-531-reflux
       <section class="section about-me" data-section="section1">
         <div class="container">
           <div class="section-heading">
-            <h2>About Me</h2>
+            <h2>Virang Parekh</h2>
             <div class="line-dec"></div>
-            <span>Hi! I'm a Computer Engineering student,
-                  Currently in the Junior Year at
-                  Dwarkadas J. Sanghvi College of Engineering
+            <span>
+              “The love of learning, the sequestered nooks, And all the sweet
+              serenity of books” <br />
+              ― H. W. Longfellow
             </span>
           </div>
           <div class="left-image-post">
@@ -98,16 +109,28 @@ https://templatemo.com/tm-531-reflux
               </div>
               <div class="col-md-6">
                 <div class="right-text">
-                  <h4>Reflux HTML CSS Template</h4>
+                  <h4>About Me</h4>
                   <p>
-                    Donec tristique feugiat lacus, at sollicitudin nunc euismod
-                    sed. Mauris viverra, erat non sagittis gravida, elit dui
-                    mollis ante, sit amet eleifend purus ligula eget eros. Sed
-                    tincidunt quam vitae neque pharetra dignissim eget ut
-                    libero.
+                    My name is Virang and I'm a Computer Engineering Junior at
+                    Dwarkadas J. Sanghvi College of Engineering. <br />
+                    I'm from 🇮🇳, located in Pune, Mumbai and Kolkata.
+                    <span id="dots1"></span>
+                    <span id="more1">
+                      <br />
+                      😄 Pronouns: He/Him <br />
+                      ⚡ Fun fact: <br />
+                      - I'm a Gujju who doesn't like Khakhras (but I do like
+                      Dhoklas) <br />
+                      - I can somewhat cook and not burn the place down (mostly)
+                      <br />
+                      - I'm the best writer to have ever existed in my room, if
+                      no one else is there <br />
+                    </span>
                   </p>
                   <div class="white-button">
-                    <a href="#">Read More</a>
+                    <button onclick="readModeButton1()" id="readMoreBtn1">
+                      Read More
+                    </button>
                   </div>
                 </div>
               </div>
@@ -117,16 +140,39 @@ https://templatemo.com/tm-531-reflux
             <div class="row">
               <div class="col-md-6">
                 <div class="left-text">
-                  <h4>Sed sagittis rhoncus velit</h4>
-                  <p>
-                    Pellentesque habitant morbi tristique senectus et netus et
-                    malesuada fames ac turpis egestas. Vestibulum fermentum
-                    eleifend nibh, vitae sodales elit finibus pretium.
-                    Suspendisse potenti. Ut sollicitudin risus a sollicitudin
-                    semper.
+                  <h4>What's up with me?</h4>
+                  <p class="current-work">
+                    <!-- lower padding decreased -->
+                    Some of my <span class="highlight">current work</span> is
+                    on:
                   </p>
+                  <ul>
+                    <!-- adding dashes so that all the lines look like points -->
+                    <li>- Automated Rotoscoping,</li>
+                    <li>- Astronomical Image Subtraction,</li>
+                    <li>- Algorithmic Game Thoery,</li>
+                    <li>- Math for CompSc. in an Indian Context,</li>
+                    <li>- And a few other full stack projects.</li>
+                  </ul>
+                  <span id="dots2"></span>
+                  <span id="more2">
+                    <p class="current-work">
+                      I’m
+                      <span class="highlight">currently learning</span> about:
+                    </p>
+                    <ul>
+                      <li>- Generative Adversarial Networks,</li>
+                      <li>- Capsule Neural Networks,</li>
+                      <br />
+                      <li>- Discrete Mathematics,</li>
+                      <br />
+                      <li>- Graph Theory.</li>
+                    </ul>
+                  </span>
                   <div class="white-button">
-                    <a href="#">Read More</a>
+                    <button onclick="readModeButton2()" id="readMoreBtn2">
+                      Read More
+                    </button>
                   </div>
                 </div>
               </div>
@@ -145,21 +191,19 @@ https://templatemo.com/tm-531-reflux
           <div class="section-heading">
             <h2>Skills</h2>
             <div class="line-dec"></div>
-            <span
-              >Curabitur leo felis, rutrum vitae varius eu, malesuada a tortor.
-              Vestibulum congue leo et tellus aliquam, eu viverra nulla semper.
-              Nullam eu faucibus diam. Donec eget massa ante.</span
-            >
+            <span>
+              “Habit is the intersection of knowledge, skill and desire.” <br />
+              - Stephen R. Corvey
+            </span>
           </div>
           <div class="row">
             <div class="col-md-6">
               <div class="service-item">
                 <div class="first-service-icon service-icon"></div>
-                <h4>HTML5 &amp; CSS3</h4>
+                <h4>Web Development</h4>
                 <p>
-                  Phasellus non convallis dolor. Integer tempor hendrerit arcu
-                  at bibendum. Sed ac ante non metus vehicula congue quis eget
-                  eros.
+                  My love for real-life problem solving through computer based
+                  and digital solutions has gotten me deep into Web development.
                 </p>
               </div>
             </div>
@@ -457,55 +501,6 @@ https://templatemo.com/tm-531-reflux
     <script src="assets/js/owl-carousel.js"></script>
     <script src="assets/js/lightbox.js"></script>
     <script src="assets/js/custom.js"></script>
-    <script>
-      //according to loftblog tut
-      $(".main-menu li:first").addClass("active");
-
-      var showSection = function showSection(section, isAnimate) {
-        var direction = section.replace(/#/, ""),
-          reqSection = $(".section").filter(
-            '[data-section="' + direction + '"]'
-          ),
-          reqSectionPos = reqSection.offset().top - 0;
-
-        if (isAnimate) {
-          $("body, html").animate(
-            {
-              scrollTop: reqSectionPos
-            },
-            800
-          );
-        } else {
-          $("body, html").scrollTop(reqSectionPos);
-        }
-      };
-
-      var checkSection = function checkSection() {
-        $(".section").each(function() {
-          var $this = $(this),
-            topEdge = $this.offset().top - 80,
-            bottomEdge = topEdge + $this.height(),
-            wScroll = $(window).scrollTop();
-          if (topEdge < wScroll && bottomEdge > wScroll) {
-            var currentId = $this.data("section"),
-              reqLink = $("a").filter("[href*=\\#" + currentId + "]");
-            reqLink
-              .closest("li")
-              .addClass("active")
-              .siblings()
-              .removeClass("active");
-          }
-        });
-      };
-
-      $(".main-menu").on("click", "a", function(e) {
-        e.preventDefault();
-        showSection($(this).attr("href"), true);
-      });
-
-      $(window).scroll(function() {
-        checkSection();
-      });
-    </script>
+    <script src="assets/js/extrajs.js"></script>
   </body>
 </html>

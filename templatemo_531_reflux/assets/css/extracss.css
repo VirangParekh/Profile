@@ -1,0 +1,15 @@
+#more1 {
+  display: none;
+}
+
+#more2 {
+  display: none;
+}
+
+.current-work {
+  margin-bottom: 0.5rem;
+}
+
+.current-work > .highlight {
+  font-weight: bold;
+}
